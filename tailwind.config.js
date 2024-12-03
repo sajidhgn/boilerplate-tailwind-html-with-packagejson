@@ -3,11 +3,14 @@ const colors = require('tailwindcss/colors')
 
 module.exports = {
   content: [
-    "./**/*.{html,js}",
+   './src/**/*.{html,js}',
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {
+      fontFamily: {
+        custom: ['"Alexandria"', 'sans-serif'], // Replace with your custom font
+      },
       colors: {
         primary: colors.blue[600],
         accent: colors.orange[500],
