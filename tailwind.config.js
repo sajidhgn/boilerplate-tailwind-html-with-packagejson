@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        custom: ['"Alexandria"', 'sans-serif'], // Replace with your custom font
+        custom: ['"Alexandria"'], // Replace with your custom font
       },
       colors: {
         primary: colors.blue[600],
